@@ -6,9 +6,14 @@ authors = ["Jan Hohenheim <jan@hohenheim.ch>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.10"
+jupyter = "^1.0.0"
+numpy = "^1.21.2"
+matplotlib = "^3.4.3"
+schemdraw = "^0.11"
 
 [tool.poetry.dev-dependencies]
+black = "^21.9b0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
