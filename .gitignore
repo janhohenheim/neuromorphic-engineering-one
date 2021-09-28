@@ -1,0 +1,5 @@
+*.pyc
+/windows
+logmessages.txt
+library/tmp.ppf
+.idea
