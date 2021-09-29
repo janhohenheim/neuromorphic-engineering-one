@@ -11,7 +11,7 @@ jupyter = "^1.0.0"
 numpy = "^1.21.2"
 matplotlib = "^3.4.3"
 schemdraw = "^0.11"
-pyplane = { path = "./third-party/pyplane/", develop = false } 
+
 scipy = "^1.7.1"
 
 [tool.poetry.dev-dependencies]
