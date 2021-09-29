@@ -1,0 +1,144 @@
+[Logging]
+log_showDbg = False
+log_showError = True
+log_showWarning = True
+log_showTime = True
+log_showTerminal = True
+
+[Plotting]
+plot_background = #ffffff
+plot_backgroundTransparent = False
+plot_CanvasBackground = #ffffff
+plot_fontSize = 9
+plot_topOfPlot = 0.89
+plot_leftOfPlot = 0.12
+plot_rightOfPlot = 0.975
+plot_bottomOfPlot = 0.1
+
+[Phaseplane]
+pp_xmin = -10.0
+pp_xmax = 10.0
+pp_ymin = -10.0
+pp_ymax = 10.0
+pp_showXTicks = True
+pp_showYTicks = True
+pp_showMinorTicks = True
+pp_showSpines = True
+pp_showGrid = True
+pp_showTitle = True
+pp_showXLabel = False
+pp_showYLabel = False
+pp_labelFontSize = 12
+
+[x-t-plot]
+x_tmin = 0.0
+x_tmax = 10.0
+x_xmin = -10.0
+x_xmax = 10.0
+x_showXTicks = True
+x_showYTicks = True
+x_showMinorTicks = True
+x_showSpines = True
+x_showGrid = True
+x_showTitle = False
+x_showXLabel = True
+x_showYLabel = True
+x_labelFontSize = 12
+
+[y-t-plot]
+y_tmin = 0.0
+y_tmax = 10.0
+y_ymin = -10.0
+y_ymax = 10.0
+y_showXTicks = True
+y_showYTicks = True
+y_showMinorTicks = True
+y_showSpines = True
+y_showGrid = True
+y_showTitle = False
+y_showXLabel = True
+y_showYLabel = True
+y_labelFontSize = 12
+
+[3d-plot]
+3d_tmin = 0.0
+3d_tmax = 10.0
+3d_xmin = -10.0
+3d_xmax = 10.0
+3d_ymin = -10.0
+3d_ymax = 10.0
+3d_showXTicks = True
+3d_showYTicks = True
+3d_showTTicks = True
+3d_showMinorTicks = True
+3d_showSpines = True
+3d_showGrid = True
+3d_showTitle = False
+3d_showTLabel = True
+3d_showXLabel = True
+3d_showYLabel = True
+3d_labelFontSize = 12
+3d_showXProjection = True
+3d_showYProjection = True
+3d_showYXProjection = True
+
+[System]
+sys_max_norm = 100000.0
+
+[Vectorfield]
+vf_onByDefault = True
+vf_color = #b3b3b3
+vf_gridPointsInX = 40
+vf_gridPointsInY = 20
+vf_arrowHeadWidth = 2.5
+vf_arrowHeadLength = 3.0
+vf_arrowWidth = 0.001
+vf_arrowPivot = middle
+
+[Streamlines]
+stream_onByDefault = False
+stream_color = #b3b3b3
+stream_density = 2.0
+stream_linewidth = 1.0
+stream_gridPointsInX = 100
+stream_gridPointsInY = 100
+
+[Nullclines]
+nc_onByDefault = False
+nc_color_xdot = #ff00ff
+nc_color_ydot = #ff6600
+nc_linewidth = 1.0
+nc_gridPointsInX = 500
+nc_gridPointsInY = 500
+
+[Trajectories]
+traj_ppForwardColor = #0000ff
+traj_ppBackwardColor = #0000ff
+traj_x_tColor = #0000ff
+traj_y_tColor = #0000ff
+traj_plotInitPoint = True
+traj_initPointColor = #008000
+traj_checkForwardByDefault = True
+traj_checkBackwardByDefault = True
+traj_integrationtime = 10.0
+traj_integrationstep = 0.0005
+
+[Functions]
+fct_gridPointsInX = 500
+fct_gridPointsInY = 500
+fct_linewidth = 1.0
+fct_color = #ff0000
+
+[Linearization]
+lin_round_decimals = 2
+lin_show_eigenvector = True
+lin_show_eigenline = True
+lin_eigenvector_color = #000000
+lin_eigenvector_linecolor = #7dffce
+
+[Export]
+pdf_exportInSeparateFiles = False
+
+[Test]
+test_var = Read test variable vom config
+
